@@ -19,6 +19,7 @@ begin.addEventListener('click', ()=>{
 
 // Undo Last Icon
 undo.addEventListener('click', ()=>{
+ if (!game) return;
   const lastMove = history.pop();
   const cell = document.getElementById(lastMove.cellId);
   const icon = cell.querySelector('.board__icon');
