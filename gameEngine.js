@@ -10,7 +10,6 @@ let game = false;
 
 //Start Game
 begin.addEventListener('click', ()=>{
-    board.classList.add('invisible')
     begin.classList.add('invisible')
     undo.classList.remove('invisible')
     restart.classList.remove('invisible')
@@ -36,7 +35,6 @@ restart.addEventListener('click', ()=>{
      if (icon) icon.textContent = '';
     }
     begin.classList.remove('invisible')
-     board.classList.remove('invisible')
     undo.classList.add('invisible')
     restart.classList.add('invisible')
     game = false;
