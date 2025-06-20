@@ -20,6 +20,7 @@
     margin: 0.5rem;
     padding: 0.5rem 1rem;
     border: 2px solid red;
+    background-color: white;
     cursor: pointer;
 }
 .controls:hover {
@@ -30,8 +31,14 @@
     color: white;
 }
 .undo{
-    background-color: white;
     color: red;
+}
+.begin {
+     border: 2px solid green;
+     color: green;
+}
+.invisible {
+    display: none;
 }
 
 /* BOARD AND CELLS */
