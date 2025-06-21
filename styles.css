@@ -15,15 +15,24 @@ body{
     justify-content: center;
 }
 
-.header {
-  margin-top: 3rem;
+.header__container {
   text-align: center;
+}
+
+.header {
+    background-color: aliceblue;
+  margin-top: 3rem;
+    padding: 0.5rem 1rem;
+  font-size: 2rem;
+    display: inline-block;
+     border-radius: 0.5rem;
+     border: 1px solid magenta;
 }
 
 /* CONTROLS */
 .controls__container{
      display: flex;
-     justify-content: center;
+     justify-content: center;;
 }
 .controls{
     margin: 0.5rem;
@@ -31,6 +40,8 @@ body{
     border: 2px solid red;
     background-color: white;
     cursor: pointer;
+      border-radius: 0.5rem;  
+      font-size: 1.5rem;
 }
 .controls:hover {
     transform: scale(1.1);
@@ -38,6 +49,7 @@ body{
 .reset{
     background-color: red;
     color: white;
+
 }
 .undo{
     color: red;
@@ -52,7 +64,7 @@ body{
 
 /* BOARD AND CELLS */
 .board {
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
 }
